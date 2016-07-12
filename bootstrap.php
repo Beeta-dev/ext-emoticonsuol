@@ -11,7 +11,7 @@ return function (Dispatcher $events)
 		ConfigureFormatter::class,
 		function (ConfigureFormatter $event)
 		{
-			$event->configurator->Emoticons->add(':omg3:', '<img src="http://www.blurkness.com/flarum/assets/emos/icon_omgrollt.gif" alt=":omg3:" title="OMG">');
+			$event->configurator->Emoticons->add(':omg3:', '<img src="/assets/emos/icon_omgrollt.gif" alt=":omg3:" title="OMG">');
 		}
 	);
 };
