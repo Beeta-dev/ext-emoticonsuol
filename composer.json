@@ -13,5 +13,6 @@
                 "color": "#fff"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
