@@ -1,0 +1,19 @@
+{
+    "name": "beeta-dev/ext-emoticonsuol",
+    "description": "Emoticons do UOL",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Emoticons do UOL",
+            "icon": {
+                "backgroundColor": "#5e8e14",
+                "color": "#ffffff"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
