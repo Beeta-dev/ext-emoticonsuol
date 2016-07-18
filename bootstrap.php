@@ -112,7 +112,7 @@ function subscribe(Dispatcher $events)
 			$event->configurator->Emoticons->add(':x360b:', '<img src="'.$base_url.'/assets/emos/icon_x360l.gif" alt=":omg3:" title="OMG">');
 			$event->configurator->Emoticons->add(':psp:', '<img src="'.$base_url.'/assets/emos/icon_psp.gi" alt=":omg3:" title="OMG">');
 		}
-	}
-);
+	);
+};
 
 return __NAMESPACE__ . '\\subscribe';
