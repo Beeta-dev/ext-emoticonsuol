@@ -1,7 +1,11 @@
 {
     "name": "beeta-dev/ext-emoticonsuol",
-    "description": "Emoticons do UOL",
+    "description": "Beeta Emos UOL",
     "type": "flarum-extension",
+    "authors": [{
+        "name": "blurkness",
+        "email": "blurkness@gmail.com"
+    }],
     "require": {
         "flarum/core": "^0.1.0-beta.4"
     },
@@ -9,8 +13,9 @@
         "flarum-extension": {
             "title": "Emoticons do UOL",
             "icon": {
-                "backgroundColor": "#5e8e14",
-                "color": "#ffffff"
+                "name": "smile-o",
+                "backgroundColor": "#14191F", 
+                "color": "#D85200"
             }
         }
     },
