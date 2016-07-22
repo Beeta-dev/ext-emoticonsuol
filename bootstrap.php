@@ -12,6 +12,7 @@ function subscribe(Dispatcher $events)
 			$base_url = $protocol.$_SERVER['HTTP_HOST'];
 			$base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 			$base_url = rtrim($base_url, "/");
+
 			$event->configurator->Emoticons->add(':-D', '<img src="'.$base_url.'/assets/emos/icon_biggrin.gif" alt=":-D" title="OMG">');
 			$event->configurator->Emoticons->add(':-)', '<img src="'.$base_url.'/assets/emos/icon_smile.gif" alt=":omg3:" title="OMG">');
 			$event->configurator->Emoticons->add(':-(', '<img src="'.$base_url.'/assets/emos/icon_sad.gif" alt=":omg3:" title="OMG">');
